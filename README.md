@@ -24,5 +24,6 @@ npm is the package manager for Node.js.
 It helps you install and manage third-party packages (libraries) to add more features to your apps.
 
 # Nodejs vs Browser
+
 ![image](https://github.com/user-attachments/assets/ae40e751-6d9b-4d57-932a-b32b266cdebc)
 
