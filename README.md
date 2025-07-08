@@ -48,3 +48,12 @@ It compiles JavaScript to native machine code for fast execution.
     Efficient Garbage Collection: Manages memory to prevent leaks and optimize performance
     Inline Caching: Speeds up property access by remembering where to find object properties
 
+ # Understanding V8's Role in Node.js
+V8 provides the core JavaScript execution environment that Node.js is built upon.
+It allows Node.js to:
+
+    Execute JavaScript code outside the browser
+    Access operating system functionality (file system, networking, etc.)
+    Use the same JavaScript engine that powers Chrome for consistency
+
+
