@@ -34,3 +34,17 @@ The REPL is started by running node in the terminal:
 
 ![image](https://github.com/user-attachments/assets/4b4ddd3c-97b4-4122-83e0-3bd50b6663aa)
 
+# What is the V8 Engine?
+The V8 engine is Google's open-source JavaScript engine, used by Chrome and Node.js.
+It compiles JavaScript to native machine code for fast execution.
+
+    Origin: Developed by Google for Chrome in 2008
+    Integration: Node.js uses V8 to provide JavaScript runtime on the server
+    Features: Just-In-Time compilation, efficient garbage collection, ES6+ support
+
+# Why V8 Makes Node.js Fast
+    Just-In-Time (JIT) Compilation: Converts JavaScript into optimized machine code instead of interpreting it
+    Hidden Classes: Optimizes property access on JavaScript objects
+    Efficient Garbage Collection: Manages memory to prevent leaks and optimize performance
+    Inline Caching: Speeds up property access by remembering where to find object properties
+
