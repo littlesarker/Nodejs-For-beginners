@@ -27,3 +27,10 @@ It helps you install and manage third-party packages (libraries) to add more fea
 
 ![image](https://github.com/user-attachments/assets/ae40e751-6d9b-4d57-932a-b32b266cdebc)
 
+# Using the REPL
+
+The Node.js REPL (Read-Eval-Print Loop) is an interactive shell for executing JavaScript code.
+The REPL is started by running node in the terminal:
+
+![image](https://github.com/user-attachments/assets/4b4ddd3c-97b4-4122-83e0-3bd50b6663aa)
+
