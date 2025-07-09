@@ -110,5 +110,13 @@ Node.js follows these steps to handle operations:
     Process setImmediate callbacks
     Handle close events (like socket.on('close'))
 
+# Event Loop Phases
+    Timers: setTimeout, setInterval
+    I/O Callbacks: Completed I/O operations
+    Poll: Retrieve new I/O events
+    Check: setImmediate callbacks
+    Close: Cleanup callbacks (like socket.on('close'))
+
+
 
 
