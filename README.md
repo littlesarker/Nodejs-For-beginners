@@ -117,6 +117,20 @@ Node.js follows these steps to handle operations:
     Check: setImmediate callbacks
     Close: Cleanup callbacks (like socket.on('close'))
 
+# Why is the Event Loop Important?
+The event loop enables Node.js to handle thousands of concurrent connections with a single thread, making it perfect for:
+    Real-time applications
+    APIs and microservices
+    Data streaming
+    Chat applications
+
+# Node.js uses an event loop to handle async operations
+# Different types of callbacks have different priorities
+# Microtasks (Promises) run before the next event loop phase
+# This non-blocking model enables high concurrency
+
+
+
 
 
 
