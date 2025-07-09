@@ -95,4 +95,20 @@ Node.js is particularly well-suited for:
     Microservices - Small, independent services
 
 
+# Node.js Event Loop
+What is the Event Loop?
+The event loop is what makes Node.js non-blocking and efficient.
+It handles asynchronous operations by delegating tasks to the system and processing their results through callbacks,
+allowing Node.js to manage thousands of concurrent connections with a single thread.
+
+# How the Event Loop Works
+Node.js follows these steps to handle operations:
+    Execute the main script (synchronous code)
+    Process any microtasks (Promises, process.nextTick)
+    Execute timers (setTimeout, setInterval)
+    Run I/O callbacks (file system, network operations)
+    Process setImmediate callbacks
+    Handle close events (like socket.on('close'))
+
+
 
