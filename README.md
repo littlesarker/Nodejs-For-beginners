@@ -57,3 +57,42 @@ It allows Node.js to:
     Use the same JavaScript engine that powers Chrome for consistency
 
 
+# Node.js Architecture
+Node.js uses a single-threaded, event-driven architecture that is designed to handle many connections at once, efficiently and without blocking the main thread.
+This makes Node.js ideal for building scalable network applications, real-time apps, and APIs.
+
+Key Characteristics: Non-blocking I/O, event-driven, single-threaded with event loop, asynchronous execution.
+<============ Node.js Architecture Diagram ===========>
+
+
+1. Client Request Phase
+
+    Clients send requests to the Node.js server
+    Each request is added to the Event Queue
+
+2. Event Loop Phase
+
+    The Event Loop continuously checks the Event Queue
+    Picks up requests one by one in a loop
+
+3. Request Processing
+
+    Simple (non-blocking) tasks are handled immediately by the main thread
+    Complex/blocking tasks are offloaded to the Thread Pool
+
+4. Response Phase
+
+    When blocking tasks complete, their callbacks are placed in the Callback Queue
+    Event Loop processes callbacks and sends responses
+
+When to Use Node.js
+
+Node.js is particularly well-suited for:
+
+    I/O-bound applications - File operations, database queries, network requests
+    Real-time applications - Chat apps, live notifications, collaboration tools
+    APIs - RESTful services, GraphQL APIs
+    Microservices - Small, independent services
+
+
+
