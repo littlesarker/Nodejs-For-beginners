@@ -124,10 +124,10 @@ The event loop enables Node.js to handle thousands of concurrent connections wit
     Data streaming
     Chat applications
 
-1 Node.js uses an event loop to handle async operations
-2 Different types of callbacks have different priorities
-3 Microtasks (Promises) run before the next event loop phase
-4 This non-blocking model enables high concurrency
+# Node.js uses an event loop to handle async operations
+# Different types of callbacks have different priorities
+# Microtasks (Promises) run before the next event loop phase
+# This non-blocking model enables high concurrency
 
 # Node.js Asynchronous
 In Node.js, asynchronous operations let your program do other work while waiting for tasks like file I/O or network requests to complete.
