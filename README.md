@@ -132,6 +132,7 @@ The event loop enables Node.js to handle thousands of concurrent connections wit
 # Node.js Asynchronous
 In Node.js, asynchronous operations let your program do other work while waiting for tasks like file I/O or network requests to complete.
 This non-blocking approach enables Node.js to handle thousands of concurrent connections efficiently.
+
 # Sync vs Async: Key Differences
 <img width="914" height="185" alt="image" src="https://github.com/user-attachments/assets/4ed0d9a9-4e41-4891-bfa4-36121ca9d726" />
 
