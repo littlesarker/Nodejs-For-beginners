@@ -170,7 +170,8 @@ The syntax consists of two keywords:
     async: Used to declare an asynchronous function that returns a Promise
     await: Used to pause execution until a Promise is resolved, can only be used inside async functions
 
-    <img width="1235" height="320" alt="image" src="https://github.com/user-attachments/assets/ead2a965-c16b-4fa6-a7e7-fbc783fc6ffb" />
+   <img width="1240" height="316" alt="image" src="https://github.com/user-attachments/assets/93746b45-8072-45f0-a425-7e26167b3242" />
+
 
 Best practice among them 
 1.async functions always return Promises
