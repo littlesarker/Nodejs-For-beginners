@@ -162,6 +162,27 @@ The finally() method executes code regardless of whether the promise is fulfille
 Promise.all() for Parallel Execution
 Promise.all() is used to run multiple promises in parallel, and wait for ALL of them to complete. It fails fast if any promise rejects.
 
+# Introduction to Async/Await
+Async/await makes asynchronous code look and more feel like synchronous code. It does not block the main thread, but is easy to follow and understand.
+
+Syntax and Usage
+The syntax consists of two keywords:
+    async: Used to declare an asynchronous function that returns a Promise
+    await: Used to pause execution until a Promise is resolved, can only be used inside async functions
+
+    <img width="1235" height="320" alt="image" src="https://github.com/user-attachments/assets/ead2a965-c16b-4fa6-a7e7-fbc783fc6ffb" />
+
+Best practice among them 
+1.async functions always return Promises
+2.Use Promise.all for concurrent operations
+3.Always handle errors
+4.Avoid mixing async/await with callbacks
+5.Create clean async functions
+
+
+
+
+
 
 
 
