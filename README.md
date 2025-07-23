@@ -136,6 +136,34 @@ This non-blocking approach enables Node.js to handle thousands of concurrent con
 # Sync vs Async: Key Differences
 <img width="914" height="185" alt="image" src="https://github.com/user-attachments/assets/4ed0d9a9-4e41-4891-bfa4-36121ca9d726" />
 
+# Introduction to Promises
+Promises in Node.js provide a cleaner way to handle asynchronous operations compared to traditional callbacks.
+Promises represent the completion (or failure) of an asynchronous operation and its result.
+
+Promise States
+
+    Pending: Initial state, operation not completed
+    Fulfilled: Operation completed successfully
+    Rejected: Operation failed
+
+Once a promise is settled (either fulfilled or rejected), its state cannot change.
+
+<img width="1241" height="422" alt="image" src="https://github.com/user-attachments/assets/d61d0dd0-d03a-4174-b4ea-056684ca2425" />
+
+Promise.then()
+The then() method takes up to two arguments. The arguments are callback functions for the success and failure cases for the Promise.
+
+Promise.catch()
+The catch() method handles rejected promises and is equivalent to .then(null, errorHandler).
+
+Promise.finally()
+The finally() method executes code regardless of whether the promise is fulfilled or rejected.
+
+Promise.all() for Parallel Execution
+Promise.all() is used to run multiple promises in parallel, and wait for ALL of them to complete. It fails fast if any promise rejects.
+
+
+
 
 
 
