@@ -212,6 +212,10 @@ package.json is the heart of any Node.js project, containing metadata, scripts, 
 # Best practice with package.json
  <img width="571" height="127" alt="image" src="https://github.com/user-attachments/assets/6e80a172-497e-4e07-aab0-deb85cdfd623" />
 
+ # Node.js Managing Dependencies
+<img width="570" height="218" alt="image" src="https://github.com/user-attachments/assets/44cbbe18-bc5b-432e-bda3-54f99da5bb16" />
+
+
 
 
 
