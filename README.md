@@ -187,6 +187,28 @@ Modules are the building blocks of Node.js applications, allowing you to organiz
   *  Preventing global namespace pollution
   *  Improving code maintainability and reusability
 
+# What is NPM?
+NPM is a package manager for Node.js packages, or modules.
+
+# What is a Package?
+A package in Node.js contains all the files you need for a module.
+
+# Download a Package
+<img width="891" height="124" alt="image" src="https://github.com/user-attachments/assets/af3f4ebc-3758-4e23-bffa-1f62fc5f408d" />
+
+# Using a Package
+<img width="851" height="173" alt="image" src="https://github.com/user-attachments/assets/a613a931-2a6c-432f-b7f8-5032de60d823" />
+
+# Updating Packages
+<img width="891" height="438" alt="image" src="https://github.com/user-attachments/assets/a825cc6d-3545-44e4-8590-e7756af88211" />
+
+# Uninstalling a Package
+<img width="891" height="444" alt="image" src="https://github.com/user-attachments/assets/90c6b9a1-5529-42f5-9c4a-f0605738c82d" />
+
+
+
+
+
 
 
 
