@@ -205,6 +205,14 @@ A package in Node.js contains all the files you need for a module.
 # Uninstalling a Package
 <img width="891" height="444" alt="image" src="https://github.com/user-attachments/assets/90c6b9a1-5529-42f5-9c4a-f0605738c82d" />
 
+# Node.js package.json
+What is package.json? 
+package.json is the heart of any Node.js project, containing metadata, scripts, and dependency information
+
+# Best practice with package.json
+ <img width="571" height="127" alt="image" src="https://github.com/user-attachments/assets/6e80a172-497e-4e07-aab0-deb85cdfd623" />
+
+
 
 
 
