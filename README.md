@@ -215,6 +215,19 @@ package.json is the heart of any Node.js project, containing metadata, scripts, 
  # Node.js Managing Dependencies
 <img width="570" height="218" alt="image" src="https://github.com/user-attachments/assets/44cbbe18-bc5b-432e-bda3-54f99da5bb16" />
 
+# NodeJS Http Module
+Node.js includes a powerful built-in HTTP module that enables you to create HTTP servers and make HTTP requests.
+
+This module is essential for building web applications and APIs in Node.js.
+Key Features
+
+    Create HTTP servers to handle requests and send responses
+    Make HTTP requests to other servers
+    Handle different HTTP methods (GET, POST, PUT, DELETE, etc.)
+    Work with request and response headers
+    Handle streaming data for large payloads
+
+
 
 
 
