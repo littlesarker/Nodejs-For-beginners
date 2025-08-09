@@ -334,6 +334,20 @@ HTTPS requires SSL/TLS certificates to establish secure connections. There are s
   Since Windows uses backslashes (\) and POSIX systems (Linux, macOS) use forward slashes (/), the Path module helps write cross-platform code that works correctly on any system.
   <img width="608" height="217" alt="image" src="https://github.com/user-attachments/assets/d5d188cd-1b5b-422e-80fc-f32450dd5e0d" />
 
+  # OS Module 
+  What is the OS Module?
+  The OS module in Node.js provides a powerful set of utilities for interacting with the underlying operating system.
+  It offers a cross-platform way to access system-related information and perform common operating system tasks.
+
+  # Key Features:
+    Retrieve system information (CPU, memory, platform)
+    Access user and network information
+    Work with file paths and directories in a cross-platform way
+    Monitor system resources and performance
+    Handle operating system signals and errors
+
+
+
 
 
 
