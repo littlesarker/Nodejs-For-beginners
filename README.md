@@ -232,7 +232,6 @@ Key Features
 HTTP headers let you send additional information with your response.
 The res.writeHead() method is used to set the status code and response headers.
 
-
 # Common HTTP Status Codes
  # Code 	Message 	Description
  # 200 	OK 	Standard response for successful HTTP requests
@@ -294,6 +293,28 @@ HTTPS requires SSL/TLS certificates to establish secure connections. There are s
     Extended Validation (EV): Highest level of validation, shows company name in browser
     Wildcard Certificates: Secures all subdomains of a domain
     Multi-Domain (SAN) Certificates: Secures multiple domains with one certificate
+
+# Security Best Practices:
+    Always use the latest stable version of Node.js for security updates
+    Keep your dependencies up to date using `npm audit` and `npm update`
+    Use environment variables for sensitive configuration (never commit secrets to version control)
+    Implement rate limiting to prevent abuse
+    Regularly rotate your SSL/TLS certificates
+    Monitor your server for security vulnerabilities
+    Use a reverse proxy like Nginx or Apache in production for additional security features
+
+# Best Practices for HTTPS Requests:
+    Always validate and sanitize input data before sending it in a request
+    Use environment variables for sensitive information like API keys
+    Implement proper error handling and timeouts
+    Set appropriate headers (Content-Type, Accept, User-Agent)
+    Handle redirects appropriately (3xx status codes)
+    Implement retry logic for transient failures
+    Consider using a library like axios or node-fetch for more complex scenarios
+
+
+
+   
 
 
 
