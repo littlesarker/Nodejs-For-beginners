@@ -227,6 +227,41 @@ Key Features
     Work with request and response headers
     Handle streaming data for large payloads
 
+# Working with HTTP Headers
+
+HTTP headers let you send additional information with your response.
+The res.writeHead() method is used to set the status code and response headers.
+
+
+# Common HTTP Status Codes
+Code 	Message 	Description
+200 	OK 	Standard response for successful HTTP requests
+201 	Created 	Request has been fulfilled and new resource created
+301 	Moved Permanently 	Resource has been moved to a new URL
+400 	Bad Request 	Server cannot process the request due to client error
+401 	Unauthorized 	Authentication is required
+403 	Forbidden 	Server refuses to authorize the request
+404 	Not Found 	Requested resource could not be found
+500 	Internal Server Error 	Unexpected condition was encountered
+
+
+# Common Response Headers
+    Content-Type: Specifies the media type of the content (e.g., text/html, application/json)
+    Content-Length: The length of the response body in bytes
+    Location: Used in redirects (with 3xx status codes)
+    Set-Cookie: Sets HTTP cookies on the client
+    Cache-Control: Directives for caching mechanisms
+    Access-Control-Allow-Origin: For CORS support
+
+# Common URL Parsing Methods
+    url.parse(urlString, [parseQueryString], [slashesDenoteHost]): Parse a URL string into an object
+    url.format(urlObject): Format a URL object into a URL string
+    url.resolve(from, to): Resolve a target URL relative to a base URL
+    new URL(input, [base]): The WHATWG URL API (recommended for new code)
+    querystring.parse(str, [sep], [eq], [options]): Parse a query string into an object
+    querystring.stringify(obj, [sep], [eq], [options]): Stringify an object into a query string
+
+
 
 
 
