@@ -284,6 +284,17 @@ HTTPS is crucial for modern web applications because it:
     Encrypted session is established using asymmetric encryption
     Symmetric encryption is used for the actual data transfer
 
+# SSL/TLS Certificates
+HTTPS requires SSL/TLS certificates to establish secure connections. There are several types of certificates:
+
+# Types of Certificates
+    Self-Signed Certificates: For development and testing (not trusted by browsers)
+    Domain Validated (DV): Basic validation, just verifies domain ownership
+    Organization Validated (OV): Validates organization details
+    Extended Validation (EV): Highest level of validation, shows company name in browser
+    Wildcard Certificates: Secures all subdomains of a domain
+    Multi-Domain (SAN) Certificates: Secures multiple domains with one certificate
+
 
 
 
