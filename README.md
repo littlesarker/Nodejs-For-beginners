@@ -323,6 +323,12 @@ HTTPS requires SSL/TLS certificates to establish secure connections. There are s
     Implement rate limiting to prevent abuse
     Use CORS middleware if your API is accessed from different domains
 
+ # Node File System
+ The Node.js File System module (fs) provides a comprehensive set of methods for working with the file system on your computer.
+  It allows you to perform file I/O operations in both synchronous and asynchronous ways.
+  <img width="645" height="216" alt="image" src="https://github.com/user-attachments/assets/95e4b08e-dfbe-4fbd-a612-3806928d411e" />
+
+
 
 
 
