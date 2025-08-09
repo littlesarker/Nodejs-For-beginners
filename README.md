@@ -261,6 +261,30 @@ The res.writeHead() method is used to set the status code and response headers.
     querystring.parse(str, [sep], [eq], [options]): Parse a query string into an object
     querystring.stringify(obj, [sep], [eq], [options]): Stringify an object into a query string
 
+# Introduction to the HTTPS Module
+
+The HTTPS module is a core Node.js module that provides an implementation of the HTTPS protocol, which is essentially HTTP over TLS/SSL.
+
+It's a secure version of the HTTP module, providing encrypted communication between clients and servers.
+
+# Why Use HTTPS?
+HTTPS is crucial for modern web applications because it:
+
+    Encrypts Data: Protects sensitive information like passwords, credit card numbers, and personal data from eavesdropping
+    Authenticates Servers: Verifies that clients are communicating with the intended server
+    Ensures Data Integrity: Prevents data from being modified or corrupted during transfer
+    Builds Trust: Visual indicators (like the padlock icon) increase user confidence
+    Improves SEO: Search engines prioritize HTTPS websites in search results
+    Enables Modern Features: Many web APIs (like Geolocation, Service Workers) require HTTPS
+
+# How HTTPS Works
+    Client initiates a secure connection to the server
+    Server presents its SSL/TLS certificate to the client
+    Client verifies the certificate with a trusted Certificate Authority (CA)
+    Encrypted session is established using asymmetric encryption
+    Symmetric encryption is used for the actual data transfer
+
+
 
 
 
