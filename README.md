@@ -323,11 +323,16 @@ HTTPS requires SSL/TLS certificates to establish secure connections. There are s
     Implement rate limiting to prevent abuse
     Use CORS middleware if your API is accessed from different domains
 
- # Node File System
+ # Node JS File System
  The Node.js File System module (fs) provides a comprehensive set of methods for working with the file system on your computer.
   It allows you to perform file I/O operations in both synchronous and asynchronous ways.
   <img width="645" height="216" alt="image" src="https://github.com/user-attachments/assets/95e4b08e-dfbe-4fbd-a612-3806928d411e" />
 
+  # Node Path Module 
+  What is the Path Module?
+  The Path module is a built-in Node.js module that provides tools for handling and transforming file paths across different operating systems.
+  Since Windows uses backslashes (\) and POSIX systems (Linux, macOS) use forward slashes (/), the Path module helps write cross-platform code that works correctly on any system.
+  <img width="608" height="217" alt="image" src="https://github.com/user-attachments/assets/d5d188cd-1b5b-422e-80fc-f32450dd5e0d" />
 
 
 
