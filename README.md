@@ -437,6 +437,18 @@ Key features include:
     Immediate execution in the next event loop with setImmediate()
     Promise-based APIs for modern async/await patterns
 
+ #  What is the Assert Module?
+ The Assert module provides a simple yet powerful set of assertion tests for validating invariants in your code.
+ It's a core Node.js module that doesn't require installation.
+
+ Key features include:
+    Simple truthy/falsy assertions
+    Strict and loose equality checks
+    Deep object comparison
+    Error throwing and handling
+    Support for async/await patterns
+
+
 
 
 
