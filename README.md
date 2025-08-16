@@ -373,7 +373,32 @@ Streams are one of Node.js's most powerful features and are used extensively in:
     Better User Experience: Deliver data to users as it becomes available .
     <img width="868" height="425" alt="image" src="https://github.com/user-attachments/assets/d4ab576a-d48d-4b12-a580-e191f6f512d9" />
     <img width="789" height="440" alt="image" src="https://github.com/user-attachments/assets/fc02e3e2-03a1-479e-8be8-aed564a51e52" />
-<img width="868" height="226" alt="image" src="https://github.com/user-attachments/assets/a66291a0-e8d2-42ef-9262-9602392d4f74" />
+    <img width="868" height="226" alt="image" src="https://github.com/user-attachments/assets/a66291a0-e8d2-42ef-9262-9602392d4f74" />
+
+ # Node.js Crypto Module
+ What is the Crypto Module?
+
+The Crypto module is a built-in Node.js module that provides cryptographic functionality including:
+
+    Hash functions (SHA-256, SHA-512, etc.)
+    HMAC (Hash-based Message Authentication Code)
+    Symmetric encryption (AES, DES, etc.)
+    Asymmetric encryption (RSA, ECDSA, etc.)
+    Digital signatures and verification
+    Secure random number generation
+
+The Crypto module is essential for applications that need to handle sensitive information securely.
+
+The Crypto module wraps the OpenSSL library, providing access to well-established and tested cryptographic algorithms.
+
+This module is often used to handle sensitive data, such as:
+
+    User authentication and password storage
+    Secure data transmission
+    File encryption and decryption
+    Secure communication channels
+
+
 
 
 
