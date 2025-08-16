@@ -452,6 +452,9 @@ Key features include:
  The Util module is a core Node.js module that provides a collection of utility functions for common tasks
  <img width="851" height="224" alt="image" src="https://github.com/user-attachments/assets/07a0089f-db47-4412-8301-7d8c1c794b4e" />
 
+# NodeJS Framework 
+<img width="894" height="391" alt="image" src="https://github.com/user-attachments/assets/8fe919e4-0ec3-4b07-ac0e-3d9330a08f48" />
+
 
 
 
