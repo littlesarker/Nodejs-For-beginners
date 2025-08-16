@@ -352,7 +352,34 @@ HTTPS requires SSL/TLS certificates to establish secure connections. There are s
 
   Node.js uses an event-driven architecture where objects called "emitters" emit named events that cause 
   function objects ("listeners") to be called.
+
+ # Streams
+ What are Streams?
+
+In Node.js, streams are collections of data, which might not be available in full at once and don't have to fit in memory.
+Think of them as conveyor belts that move data from one place to another, allowing you to work with each piece as it arrives rather than waiting for the whole dataset.
+Streams are one of Node.js's most powerful features and are used extensively in:
+    File system operations (reading/writing files)
+    HTTP requests and responses
+    Data compression and decompression
+    Database operations
+    Real-time data processing
     
+ # Why Use Streams?
+ There are several advantages to using streams:
+    Memory Efficiency: Process large files without loading them entirely into memory
+    Time Efficiency: Start processing data as soon as you have it, instead of waiting for all the data
+    Composability: Build powerful data pipelines by connecting streams
+    Better User Experience: Deliver data to users as it becomes available .
+    <img width="868" height="425" alt="image" src="https://github.com/user-attachments/assets/d4ab576a-d48d-4b12-a580-e191f6f512d9" />
+    <img width="789" height="440" alt="image" src="https://github.com/user-attachments/assets/fc02e3e2-03a1-479e-8be8-aed564a51e52" />
+
+    <img width="868" height="226" alt="image" src="https://github.com/user-attachments/assets/043a0b33-4646-4d37-8a38-e6414ec3c19c" />
+
+
+
+
+
 
 
 
