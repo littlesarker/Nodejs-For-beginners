@@ -448,6 +448,11 @@ Key features include:
     Error throwing and handling
     Support for async/await patterns
 
+ # What is the Util Module?
+ The Util module is a core Node.js module that provides a collection of utility functions for common tasks
+ <img width="851" height="224" alt="image" src="https://github.com/user-attachments/assets/07a0089f-db47-4412-8301-7d8c1c794b4e" />
+
+
 
 
 
