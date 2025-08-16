@@ -373,8 +373,7 @@ Streams are one of Node.js's most powerful features and are used extensively in:
     Better User Experience: Deliver data to users as it becomes available .
     <img width="868" height="425" alt="image" src="https://github.com/user-attachments/assets/d4ab576a-d48d-4b12-a580-e191f6f512d9" />
     <img width="789" height="440" alt="image" src="https://github.com/user-attachments/assets/fc02e3e2-03a1-479e-8be8-aed564a51e52" />
-
-    <img width="868" height="226" alt="image" src="https://github.com/user-attachments/assets/043a0b33-4646-4d37-8a38-e6414ec3c19c" />
+<img width="868" height="226" alt="image" src="https://github.com/user-attachments/assets/a66291a0-e8d2-42ef-9262-9602392d4f74" />
 
 
 
