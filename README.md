@@ -424,7 +424,9 @@ It provides both data integrity and authentication.
     Message Integrity: Any change to the message will produce a different HMAC
     Authenticity: Only parties with the secret key can generate valid HMACs
     No Encryption: HMAC doesn't encrypt the message, only verifies its integrity
-    <img width="886" height="343" alt="image" src="https://github.com/user-attachments/assets/820ce813-aa32-4083-adfc-9a6dc44d11d4" />
+
+  <img width="881" height="338" alt="image" src="https://github.com/user-attachments/assets/75312e8a-6dad-4969-9f11-f184d8bac6ef" />
+
 
 
 
