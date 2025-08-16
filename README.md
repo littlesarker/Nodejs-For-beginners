@@ -427,6 +427,17 @@ It provides both data integrity and authentication.
 
   <img width="881" height="338" alt="image" src="https://github.com/user-attachments/assets/75312e8a-6dad-4969-9f11-f184d8bac6ef" />
 
+# What is the Timers Module?
+The Timers module provides functions that help schedule code execution at specific times or intervals.
+Unlike browser JavaScript, Node.js timing functions are provided as part of the Timers module, though they are available globally without requiring an explicit import.
+Key features include:
+
+    Delayed execution with setTimeout()
+    Repeated execution with setInterval()
+    Immediate execution in the next event loop with setImmediate()
+    Promise-based APIs for modern async/await patterns
+
+
 
 
 
