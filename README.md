@@ -345,6 +345,14 @@ HTTPS requires SSL/TLS certificates to establish secure connections. There are s
     Work with file paths and directories in a cross-platform way
     Monitor system resources and performance
     Handle operating system signals and errors
+    
+  # Events
+  Every action on a computer is an event, like when a connection is made or a file is opened.
+  Objects in Node.js can fire events, like the readStream object fires events when opening and closing a file.
+
+  Node.js uses an event-driven architecture where objects called "emitters" emit named events that cause 
+  function objects ("listeners") to be called.
+    
 
 
 
