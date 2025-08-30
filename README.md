@@ -570,6 +570,9 @@ Follow these best practices to build robust, maintainable Express applications:
     Response flows back through middleware (in reverse order)
     Response sent to client
 
+    <img width="812" height="282" alt="image" src="https://github.com/user-attachments/assets/addcbc9b-ef5b-4543-b365-57fbeda17c4f" />
+
+
 
 
 
