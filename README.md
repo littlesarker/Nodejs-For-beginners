@@ -457,6 +457,38 @@ Key features include:
 
 <img width="544" height="523" alt="image" src="https://github.com/user-attachments/assets/9a89fca8-b109-4765-99dc-359189c88eef" />
 
+# What is Express.js?
+
+Express.js (or simply Express) is the most popular Node.js web application framework, designed for building web applications and APIs.
+It's often called the de facto standard server framework for Node.js.
+Key Characteristics:
+
+    Minimal and flexible
+    Unopinionated (you decide how to structure your app)
+    Lightweight and fast
+    Extensible through middleware
+    Huge ecosystem of plugins and extensions
+# Why Choose Express.js?
+Express provides a thin layer of fundamental web application features without obscuring Node.js features.
+It offers:
+    A robust routing system
+    HTTP helpers (redirection, caching, etc.)
+    Support for middleware to respond to HTTP requests
+    A templating engine for dynamic HTML rendering
+    Error handling middleware
+
+ #  Basic Routing
+Routing refers to how an application responds to client requests to specific endpoints (URIs) using different HTTP methods (GET, POST, PUT, DELETE, etc.).
+Express provides simple methods to define routes that correspond to HTTP methods:
+
+    app.get() - Handle GET requests
+    app.post() - Handle POST requests
+    app.put() - Handle PUT requests
+    app.delete() - Handle DELETE requests
+    app.all() - Handle all HTTP methods
+
+
+
 
 
 
