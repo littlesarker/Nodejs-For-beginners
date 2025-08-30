@@ -531,27 +531,6 @@ Follow these best practices to build robust, maintainable Express applications:
     Validate user input to prevent injection attacks
     Set appropriate CORS policies
 
-# directory structure:
-    TestApp/
-├── app.js
-├── bin/
-│  └── www
-├── package.json
-├── public/
-│  ├── images/
-│  ├── javascripts/
-│  └── stylesheets/
-│    └── style.css
-├── routes/
-│  ├── index.js
-│  └── users.js
-└── views/
-  ├── error.ejs
-  └── index.ejs
-
-
-
-
 
 
 
