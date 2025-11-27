@@ -1,5 +1,5 @@
 # Nodejs-For-beginners
- Nodejs For beginners For Typescript with details
+ Nodejs For beginners With Typescript 
 
 
 # what is NodeJS
